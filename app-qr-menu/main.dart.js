@@ -80806,7 +80806,7 @@ A.adU.prototype={
 $0(){var s,r,q,p,o,n,m=new A.IE(A.aG(t.Gf))
 m.b=!0
 s=new A.ua(m)
-r=new A.a7a(A.hj(""))
+r=new A.a7a(A.hj("https://qr-menu-shuttle.shuttleapp.rs/api/graphql"))
 r.r=m
 m=new A.Ja(r)
 q=m.r=A.aH_()
