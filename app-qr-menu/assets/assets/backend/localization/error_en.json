@@ -1,0 +1,142 @@
+[
+  {
+    "status": 400,
+    "code": "AUTH_INVALID_TOKEN",
+    "raw_message": "Invalid authorization token"
+  },
+  {
+    "status": 400,
+    "code": "AUTH_MALFORMED_AUTH_HEADER",
+    "raw_message": "Malformed \"{auth_header}\" header"
+  },
+  {
+    "status": 400,
+    "code": "AUTH_MALFORMED_COOKIES",
+    "raw_message": "Malformed cookies"
+  },
+  {
+    "status": 400,
+    "code": "BAD_REQUEST",
+    "raw_message": "The request is not well formed"
+  },
+  {
+    "status": 400,
+    "code": "EMAIL_TEMPLATE_MISSING_VARIABLES",
+    "raw_message": "Missing some of the template variables"
+  },
+  {
+    "status": 400,
+    "code": "EMAIL_TEMPLATE_RESERVED_VARIABLES",
+    "raw_message": "Some of the provided variables are reserved"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_AFTER_AND_BEFORE",
+    "raw_message": "The \"after\" and \"before\" parameters cannot exist at the same time"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_BACKWARD_WITH_AFTER",
+    "raw_message": "When backward paginating only \"before\" is allowed, not \"after\""
+  },
+  {
+    "status": 400,
+    "code": "PAGE_FIRST_AND_LAST",
+    "raw_message": "The \"first\" and \"last\" parameters cannot exist at the same time"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_FORWARD_WITH_BEFORE",
+    "raw_message": "When forward paginating only \"after\" is allowed, not \"before\""
+  },
+  {
+    "status": 400,
+    "code": "PAGE_INVALID_CURSOR",
+    "raw_message": "The provided cursor is not recognized"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_MISSING",
+    "raw_message": "Missing pagination data: at least one of \"first\" or \"last\" must be set"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_NEGATIVE_INPUT",
+    "raw_message": "The \"{field}\" parameter must be a non-negative number"
+  },
+  {
+    "status": 400,
+    "code": "TRACING_INVALID_REGEX",
+    "raw_message": "The regular expression is not valid"
+  },
+  {
+    "status": 400,
+    "code": "USER_ALREADY_EXISTS",
+    "raw_message": "The username already exists"
+  },
+  {
+    "status": 400,
+    "code": "USER_ALREADY_LOGGED",
+    "raw_message": "The user is already logged in"
+  },
+  {
+    "status": 400,
+    "code": "USER_CONFIRMATION_EXPIRED",
+    "raw_message": "The confirmation code has expired, you can request a new one"
+  },
+  {
+    "status": 400,
+    "code": "USER_INVALID_USERNAME_OR_CONFIRMATION_CODE",
+    "raw_message": "The username doesn't exist or the confirmation code doesn't match"
+  },
+  {
+    "status": 400,
+    "code": "USER_INVALID_USERNAME_OR_PASSWORD",
+    "raw_message": "The username doesn't exist or the password doesn't match"
+  },
+  {
+    "status": 400,
+    "code": "USER_PENDING",
+    "raw_message": "The user is still pending for confirmation"
+  },
+  {
+    "status": 400,
+    "code": "USER_WEAK_PASSWORD",
+    "raw_message": "The provided password is too weak, try introducing some special characters or making it larger"
+  },
+  {
+    "status": 401,
+    "code": "AUTH_MISSING",
+    "raw_message": "Missing authentication"
+  },
+  {
+    "status": 403,
+    "code": "AUTH_FAILED",
+    "raw_message": "The user is not allowed to perform such action"
+  },
+  {
+    "status": 403,
+    "code": "FORBIDDEN",
+    "raw_message": "Forbidden access to the resource"
+  },
+  {
+    "status": 403,
+    "code": "USER_SINGLE_TENANT_ADMIN",
+    "raw_message": "There can be only one tenant administrator"
+  },
+  {
+    "status": 404,
+    "code": "EMAIL_TEMPLATE_NOT_FOUND",
+    "raw_message": "The email template could not be found"
+  },
+  {
+    "status": 404,
+    "code": "USER_NOT_FOUND",
+    "raw_message": "The user was not found"
+  },
+  {
+    "status": 500,
+    "code": "INTERNAL_SERVER_ERROR",
+    "raw_message": "Internal server error"
+  }
+]

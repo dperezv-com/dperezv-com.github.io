@@ -1,0 +1,142 @@
+[
+  {
+    "status": 400,
+    "code": "AUTH_INVALID_TOKEN",
+    "raw_message": "Autorización no válida"
+  },
+  {
+    "status": 400,
+    "code": "AUTH_MALFORMED_AUTH_HEADER",
+    "raw_message": "La cabecera \"{auth_header}\" no está bien formada"
+  },
+  {
+    "status": 400,
+    "code": "AUTH_MALFORMED_COOKIES",
+    "raw_message": "Cookies de autorización no están bien formadas"
+  },
+  {
+    "status": 400,
+    "code": "BAD_REQUEST",
+    "raw_message": "La solicitud no está bien formada"
+  },
+  {
+    "status": 400,
+    "code": "EMAIL_TEMPLATE_MISSING_VARIABLES",
+    "raw_message": "Faltan alguna de las variables de la plantilla"
+  },
+  {
+    "status": 400,
+    "code": "EMAIL_TEMPLATE_RESERVED_VARIABLES",
+    "raw_message": "Alguna de las variables proporcionadas están reservadas"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_AFTER_AND_BEFORE",
+    "raw_message": "El parámetro \"after\" y \"before\" no se pueden informar al mismo tiempo"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_BACKWARD_WITH_AFTER",
+    "raw_message": "Al paginar hacia atrás sólo permite informar \"before\", no \"after\""
+  },
+  {
+    "status": 400,
+    "code": "PAGE_FIRST_AND_LAST",
+    "raw_message": "Los parámetros \"first\" y \"last\" no pueden informarse al mismo tiempo"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_FORWARD_WITH_BEFORE",
+    "raw_message": "Al paginar hacia adelante sólo permite informar \"after\", no \"before\""
+  },
+  {
+    "status": 400,
+    "code": "PAGE_INVALID_CURSOR",
+    "raw_message": "El cursos proporcionado no se reconoce"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_MISSING",
+    "raw_message": "Faltan datos de paginación: al menos \"first\" or \"last\" deben informarse"
+  },
+  {
+    "status": 400,
+    "code": "PAGE_NEGATIVE_INPUT",
+    "raw_message": "El parámetro \"{field}\" debe ser un número no negativo"
+  },
+  {
+    "status": 400,
+    "code": "TRACING_INVALID_REGEX",
+    "raw_message": "La expresión regular no es una expresión válida"
+  },
+  {
+    "status": 400,
+    "code": "USER_ALREADY_EXISTS",
+    "raw_message": "El usuario ya existe"
+  },
+  {
+    "status": 400,
+    "code": "USER_ALREADY_LOGGED",
+    "raw_message": "El usuario ya inició sesión"
+  },
+  {
+    "status": 400,
+    "code": "USER_CONFIRMATION_EXPIRED",
+    "raw_message": "El codifo de confirmación a caducado. Puede volver a solicitarlo nuevamente"
+  },
+  {
+    "status": 400,
+    "code": "USER_INVALID_USERNAME_OR_CONFIRMATION_CODE",
+    "raw_message": "EL usuario no existe o el código introducido no es válido"
+  },
+  {
+    "status": 400,
+    "code": "USER_INVALID_USERNAME_OR_PASSWORD",
+    "raw_message": "El usuario no existe o el password no es correcto"
+  },
+  {
+    "status": 400,
+    "code": "USER_PENDING",
+    "raw_message": "El usuario no está activo"
+  },
+  {
+    "status": 400,
+    "code": "USER_WEAK_PASSWORD",
+    "raw_message": "La contraseña proporcionada es demasiado débil. Intente introducir algunos caracteres especiales o aumente su longitud"
+  },
+  {
+    "status": 401,
+    "code": "AUTH_MISSING",
+    "raw_message": "No se encontró autenticación de usuario"
+  },
+  {
+    "status": 403,
+    "code": "AUTH_FAILED",
+    "raw_message": "El usuario carece de privilegios para realizar esta acción"
+  },
+  {
+    "status": 403,
+    "code": "FORBIDDEN",
+    "raw_message": "No tiene permitido el acceso al recurso"
+  },
+  {
+    "status": 403,
+    "code": "USER_SINGLE_TENANT_ADMIN",
+    "raw_message": "Solo puede asignar un administrador a la organización"
+  },
+  {
+    "status": 404,
+    "code": "EMAIL_TEMPLATE_NOT_FOUND",
+    "raw_message": "La plantilla de correo no existe"
+  },
+  {
+    "status": 404,
+    "code": "USER_NOT_FOUND",
+    "raw_message": "El usuario no existe"
+  },
+  {
+    "status": 500,
+    "code": "INTERNAL_SERVER_ERROR",
+    "raw_message": "Error interno del servidor"
+  }
+]
