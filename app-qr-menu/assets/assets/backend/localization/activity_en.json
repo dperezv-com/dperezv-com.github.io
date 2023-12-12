@@ -1,0 +1,65 @@
+[
+    {
+        "code": "USER_CONFIRMATION_REGENERATED",
+        "service": "USERS",
+        "internal": true,
+        "displayName": "Regenerate user confirmation",
+        "message": "A new confirmation code has been generated for {username}"
+    },
+    {
+        "code": "USER_CONFIRMED_ACCOUNT",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Confirm user",
+        "message": "The user {username} has confirmed the account"
+    },
+    {
+        "code": "USER_CONFIRMED_NEW_EMAIL",
+        "service": "USERS",
+        "internal": true,
+        "displayName": "Confirm new email",
+        "message": "The user {username} has confirmed its new email address: {email}"
+    },
+    {
+        "code": "USER_CREATED",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Create user",
+        "message": "The user {username} has been created"
+    },
+    {
+        "code": "USER_DELETED",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Delete user",
+        "message": "The user {username} has been deleted"
+    },
+    {
+        "code": "USER_LOGGED_IN",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Logged in",
+        "message": "The user {username} has logged in"
+    },
+    {
+        "code": "USER_REQUESTED_PASSWORD_RESET",
+        "service": "USERS",
+        "internal": true,
+        "displayName": "Request password reset",
+        "message": "The user {username} has requested a password reset"
+    },
+    {
+        "code": "USER_RESET_PASSWORD",
+        "service": "USERS",
+        "internal": true,
+        "displayName": "Reset Password",
+        "message": "The user {username} has reset its password"
+    },
+    {
+        "code": "USER_UPDATED",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Update user",
+        "message": "The user {username} has been updated"
+    }
+]

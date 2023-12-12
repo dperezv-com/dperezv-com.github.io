@@ -16,6 +16,11 @@
   },
   {
     "status": 400,
+    "code": "AUTH_REQUIRES_ELEVATED",
+    "raw_message": "This request requires an elevated session"
+  },
+  {
+    "status": 400,
     "code": "BAD_REQUEST",
     "raw_message": "The request is not well formed"
   },
@@ -108,6 +113,11 @@
     "status": 401,
     "code": "AUTH_MISSING",
     "raw_message": "Missing authentication"
+  },
+  {
+    "status": 401,
+    "code": "AUTH_OUTDATED_SESSION",
+    "raw_message": "The session is outdated, you need to log in again"
   },
   {
     "status": 403,

@@ -1,0 +1,65 @@
+[
+    {
+        "code": "USER_CONFIRMATION_REGENERATED",
+        "service": "USERS",
+        "internal": true,
+        "displayName": "Regenerar confirmación usuario",
+        "message": "Se ha generado un nuevo código de confirmación para el usuario {username}"
+    },
+    {
+        "code": "USER_CONFIRMED_ACCOUNT",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Confirmar usuario",
+        "message": "El usuario {username} ha confirmado su cuenta"
+    },
+    {
+        "code": "USER_CONFIRMED_NEW_EMAIL",
+        "service": "USERS",
+        "internal": true,
+        "displayName": "Confirmar nuevo correo",
+        "message": "El usuario {username} ha confirmado su nueva dirección de correo: {email}"
+    },
+    {
+        "code": "USER_CREATED",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Crear usuario",
+        "message": "El usuario {username} ha sido creado"
+    },
+    {
+        "code": "USER_DELETED",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Eliminar usuario",
+        "message": "El usuario {username} ha sido eliminado"
+    },
+    {
+        "code": "USER_LOGGED_IN",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Iniciar sesión",
+        "message": "El usuario {username} ha iniciado sesión"
+    },
+    {
+        "code": "USER_REQUESTED_PASSWORD_RESET",
+        "service": "USERS",
+        "internal": true,
+        "displayName": "Solicitar reset de contraseña",
+        "message": "El usuario {username} ha solicitado un reset de contraseña"
+    },
+    {
+        "code": "USER_RESET_PASSWORD",
+        "service": "USERS",
+        "internal": true,
+        "displayName": "Resetear contraseña",
+        "message": "El usuario {username} ha reseteado su contraseña"
+    },
+    {
+        "code": "USER_UPDATED",
+        "service": "USERS",
+        "internal": false,
+        "displayName": "Actualizar usuario",
+        "message": "El usuario {username} ha sido actualizado"
+    }
+]
